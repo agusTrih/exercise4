@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.header {
+    background-image: url(/back0.jpg);
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    padding: 20px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-img {
+    width: 30px;
+}
+.intro {
+    text-align: center;
+}
+/* content */
+.content {
+    display: flex;
+    padding-top: 30px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/back1.jpg);
+    background-size: cover;
+}
+.content-head {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.project {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.frame {
+    margin: 10px;
+}
+
+/* sertifikat */
+.all-skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skill-head {
+    margin: 20px 0;
+    font-size: 30px;
+}
+.certificate {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.skill {
+    width: 300px;
+}
+/* social media */
+.social-media {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.head-sosmed {
+    padding: 20px 0;
+}
+.fa {
+    margin-right: 5px;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+.facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+
+.twitter {
+    background-color: #55acee;
+    margin-right: 10px;
+}
+.instagram {
+    background-color: #e1306c;
+    margin-right: 10px;
+}
+.btn:hover {
+    opacity: 1;
+}
+/* footer */
+footer {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
